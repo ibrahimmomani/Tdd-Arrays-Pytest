@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  tdd_service:
+    build: .
+    volumes:
+      - .:/tdd_arrays
+    stdin_open: true
+    tty: true
