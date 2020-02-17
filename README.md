@@ -4,8 +4,7 @@
 ## Prerequisites
 **Install Docker**
   - These tests have been packaged to run with all dependencies
-    installed within a Docker container. Due to the use of f-strings,
-    this must be run with python 3.6+. The Docker image is based on python 3.7
+    installed within a Docker container. The Docker image is based on python 3.7
 
 
 ## Usage
@@ -14,7 +13,7 @@
   ```bash
 
   $ docker-compose build
-  $ docker-compose run test sh
+  $ docker-compose run tdd_service bash
   ```
 
 
